@@ -1,0 +1,36 @@
+{
+  "task": "estimators",
+  "utc_started": "2026-10-21T12:42:08.838725+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "qdk_version": "1.33.1",
+  "simulator": "QDK local noiseless sparse-state simulator; no quantum hardware",
+  "base_seed": 20261021,
+  "epsilon_evaluation": 0.1,
+  "estimation_phase_bits": 6,
+  "estimation_median_repetitions": 3,
+  "search_phase_bits": 5,
+  "search_coherent_median_repetitions": 1,
+  "search_threshold_median_repetitions": 3,
+  "search_margin": 0.12,
+  "search_rounds_per_update": 6,
+  "search_max_updates": 4,
+  "minhash_restarts_per_coordinate": 2,
+  "trials_per_estimation_or_hash_case": 64,
+  "trials_per_search_task": 32,
+  "source_sha256": {
+    "run_experiments.py": "f3f7e9799304c9594c93ca2a20946c3e4846fb624627a54bb3698ad089ab650f",
+    "src/Core.qs": "d3e1809e098c9724948268e432c39de14d3815a4f2b992765ceba85504454748",
+    "src/MinHash.qs": "8ad4e734004cde9ae30c7c74486990c6989323f8393de9f58a57d408face4e89",
+    "src/Search.qs": "4185e7b3d1af66f818ee85822f17d29d8da6621c9f69659c1b6df99283993d33"
+  },
+  "limitations": [
+    "Explicit multiplexed QROM and exact key-comparison membership, not physical QRAM or cuckoo hashing.",
+    "Search uses one coherent QAE register and a measured median-3 verification guard; it is a finite-budget variant, not the theorem's amplified parameter setting.",
+    "Experiments validate small-instance functionality, not asymptotic speedup or genomic-scale performance.",
+    "Search results concern repeated measurement seeds on one constructed four-reference DNA database."
+  ],
+  "records": 512,
+  "simulator_wall_seconds": 146.19481893199986,
+  "utc_finished": "2026-10-21T12:44:35.038886+00:00"
+}

@@ -1,0 +1,197 @@
+{
+  "Containment QAE / overlap_0_of_4": {
+    "trials": 64,
+    "successes": 64,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.9433759402071946,
+      1.0
+    ],
+    "mean_error": 0.0,
+    "max_error": 0.0,
+    "mean_logical_work": 381,
+    "work_unit": "A/A-dagger calls",
+    "metric": "absolute error",
+    "total_simulator_seconds": 14.660177056999828
+  },
+  "Containment QAE / overlap_1_of_4": {
+    "trials": 64,
+    "successes": 64,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.9433759402071946,
+      1.0
+    ],
+    "mean_error": 0.015565708298513628,
+    "max_error": 0.027785116509801117,
+    "mean_logical_work": 381,
+    "work_unit": "A/A-dagger calls",
+    "metric": "absolute error",
+    "total_simulator_seconds": 15.538042169000164
+  },
+  "Containment QAE / overlap_2_of_4": {
+    "trials": 64,
+    "successes": 64,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.9433759402071946,
+      1.0
+    ],
+    "mean_error": 1.1102230246251565e-16,
+    "max_error": 1.1102230246251565e-16,
+    "mean_logical_work": 381,
+    "work_unit": "A/A-dagger calls",
+    "metric": "absolute error",
+    "total_simulator_seconds": 16.826457976001166
+  },
+  "Containment QAE / overlap_3_of_4": {
+    "trials": 64,
+    "successes": 63,
+    "success_rate": 0.984375,
+    "wilson_95": [
+      0.9166589839990573,
+      0.9972364580766624
+    ],
+    "mean_error": 0.017724352164215654,
+    "max_error": 0.1524548389919358,
+    "mean_logical_work": 381,
+    "work_unit": "A/A-dagger calls",
+    "metric": "absolute error",
+    "total_simulator_seconds": 17.12527252200198
+  },
+  "Containment QAE / overlap_4_of_4": {
+    "trials": 64,
+    "successes": 64,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.9433759402071946,
+      1.0
+    ],
+    "mean_error": 0.0,
+    "max_error": 0.0,
+    "mean_logical_work": 381,
+    "work_unit": "A/A-dagger calls",
+    "metric": "absolute error",
+    "total_simulator_seconds": 18.611190344997794
+  },
+  "Containment QAE / non_power_of_two": {
+    "trials": 64,
+    "successes": 64,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.9433759402071946,
+      1.0
+    ],
+    "mean_error": 0.023945707092224214,
+    "max_error": 0.06912150565860253,
+    "mean_logical_work": 381,
+    "work_unit": "A/A-dagger calls",
+    "metric": "absolute error",
+    "total_simulator_seconds": 13.475173059999634
+  },
+  "Containment QAE / dna_pair": {
+    "trials": 64,
+    "successes": 64,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.9433759402071946,
+      1.0
+    ],
+    "mean_error": 0.015776387750432296,
+    "max_error": 0.0277851165098012,
+    "mean_logical_work": 381,
+    "work_unit": "A/A-dagger calls",
+    "metric": "absolute error",
+    "total_simulator_seconds": 24.561445918001027
+  },
+  "Jaccard via QAE / dna_pair": {
+    "trials": 64,
+    "successes": 63,
+    "success_rate": 0.984375,
+    "wilson_95": [
+      0.9166589839990573,
+      0.9972364580766624
+    ],
+    "mean_error": 0.02603081740794143,
+    "max_error": 0.30885155929947883,
+    "mean_logical_work": 381,
+    "work_unit": "A/A-dagger calls",
+    "metric": "absolute error",
+    "total_simulator_seconds": 25.313773386000776
+  },
+  "Multi-hash MinHash / n4": {
+    "trials": 64,
+    "successes": 64,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.9433759402071946,
+      1.0
+    ],
+    "mean_error": 0,
+    "max_error": 0,
+    "mean_logical_work": 263.65625,
+    "work_unit": "hash compute/uncompute calls",
+    "metric": "incorrect coordinates",
+    "total_simulator_seconds": 11.004234895000764
+  },
+  "Multi-hash MinHash / n8": {
+    "trials": 64,
+    "successes": 64,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.9433759402071946,
+      1.0
+    ],
+    "mean_error": 0,
+    "max_error": 0,
+    "mean_logical_work": 641,
+    "work_unit": "hash compute/uncompute calls",
+    "metric": "incorrect coordinates",
+    "total_simulator_seconds": 53.43511596400003
+  },
+  "Multi-hash MinHash / n16": {
+    "trials": 64,
+    "successes": 64,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.9433759402071946,
+      1.0
+    ],
+    "mean_error": 0,
+    "max_error": 0,
+    "mean_logical_work": 625.296875,
+    "work_unit": "hash compute/uncompute calls",
+    "metric": "incorrect coordinates",
+    "total_simulator_seconds": 110.90282510199813
+  },
+  "Query search / dna_database": {
+    "trials": 32,
+    "successes": 32,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.8928208017449293,
+      1.0
+    ],
+    "mean_error": 0.0,
+    "max_error": 0.0,
+    "mean_logical_work": 1547.4375,
+    "work_unit": "A/A-dagger calls",
+    "metric": "score regret",
+    "total_simulator_seconds": 235.59634562600104
+  },
+  "Best-pair search / dna_database": {
+    "trials": 32,
+    "successes": 32,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.8928208017449293,
+      1.0
+    ],
+    "mean_error": 0.0,
+    "max_error": 0.0,
+    "mean_logical_work": 2455.03125,
+    "work_unit": "A/A-dagger calls",
+    "metric": "score regret",
+    "total_simulator_seconds": 1655.9462763779989
+  }
+}

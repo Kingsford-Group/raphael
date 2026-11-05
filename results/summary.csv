@@ -1,0 +1,6 @@
+task,trials,successes,success_rate,wilson_95,mean_error,max_error,mean_logical_work,work_unit,metric,total_simulator_seconds
+Containment QAE,448,447,0.9977678571428571,"[0.9874660206931533, 0.999605863246093]",0.010430307900769414,0.1524548389919358,381,A/A-dagger calls,absolute error,120.79775904700159
+Jaccard via QAE,64,63,0.984375,"[0.9166589839990573, 0.9972364580766624]",0.02603081740794143,0.30885155929947883,381,A/A-dagger calls,absolute error,25.313773386000776
+Query search,32,32,1.0,"[0.8928208017449293, 1.0]",0.0,0.0,1547.4375,A/A-dagger calls,score regret,235.59634562600104
+Best-pair search,32,32,1.0,"[0.8928208017449293, 1.0]",0.0,0.0,2455.03125,A/A-dagger calls,score regret,1655.9462763779989
+Multi-hash MinHash,192,192,1.0,"[0.980384853933246, 1.0]",0,0,509.984375,hash compute/uncompute calls,incorrect coordinates,175.34217596099893

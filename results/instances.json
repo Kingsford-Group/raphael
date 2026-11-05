@@ -1,0 +1,212 @@
+{
+  "k": 2,
+  "encoding": "A=0,C=1,G=2,T=3; base-4 integer encoding",
+  "sequences": [
+    "AACCA",
+    "ACGTA",
+    "ACGTT",
+    "CCGGC"
+  ],
+  "database": [
+    [
+      0,
+      1,
+      4,
+      5
+    ],
+    [
+      1,
+      6,
+      11,
+      12
+    ],
+    [
+      1,
+      6,
+      11,
+      15
+    ],
+    [
+      5,
+      6,
+      9,
+      10
+    ]
+  ],
+  "query": [
+    1,
+    6,
+    11,
+    15
+  ],
+  "containment_cases": [
+    {
+      "name": "overlap_0_of_4",
+      "source": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target": []
+    },
+    {
+      "name": "overlap_1_of_4",
+      "source": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target": [
+        0
+      ]
+    },
+    {
+      "name": "overlap_2_of_4",
+      "source": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "overlap_3_of_4",
+      "source": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "overlap_4_of_4",
+      "source": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "non_power_of_two",
+      "source": [
+        0,
+        1,
+        2
+      ],
+      "target": [
+        1
+      ]
+    },
+    {
+      "name": "dna_pair",
+      "source": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "target": [
+        1,
+        6,
+        11,
+        15
+      ]
+    }
+  ],
+  "hash_cases": [
+    {
+      "name": "n4",
+      "keys": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "modulus": 32,
+      "multipliers": [
+        3,
+        5,
+        7
+      ],
+      "offsets": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "n8",
+      "keys": [
+        0,
+        10,
+        12,
+        18,
+        20,
+        24,
+        27,
+        29
+      ],
+      "modulus": 32,
+      "multipliers": [
+        3,
+        5,
+        7
+      ],
+      "offsets": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "n16",
+      "keys": [
+        0,
+        1,
+        3,
+        7,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        21,
+        24,
+        27,
+        29,
+        31
+      ],
+      "modulus": 32,
+      "multipliers": [
+        3,
+        5,
+        7
+      ],
+      "offsets": [
+        1,
+        2,
+        4
+      ]
+    }
+  ]
+}

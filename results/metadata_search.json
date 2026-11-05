@@ -1,0 +1,84 @@
+{
+  "task": "search",
+  "runner": "run_search_parallel.py",
+  "utc_started": "2026-10-21T12:44:46.711658+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "qdk_version": "1.33.1",
+  "simulator": "QDK local noiseless sparse-state simulator; no quantum hardware",
+  "scheduling": "ProcessPoolExecutor with multiprocessing spawn; one interpreter per worker",
+  "workers": 4,
+  "base_seed": 20261021,
+  "quantum_seed_formula": "BASE_SEED + 1000000 + record_index",
+  "classical_seed_formula": "quantum_seed + 10000000",
+  "record_order": "query trials followed by best-pair trials, each in increasing trial order",
+  "epsilon_evaluation": 0.1,
+  "search_phase_bits": 5,
+  "search_coherent_median_repetitions": 1,
+  "search_threshold_median_repetitions": 3,
+  "search_margin": 0.12,
+  "search_rounds_per_update": 6,
+  "search_max_updates": 4,
+  "trials_per_search_task": 32,
+  "database": [
+    [
+      0,
+      1,
+      4,
+      5
+    ],
+    [
+      1,
+      6,
+      11,
+      12
+    ],
+    [
+      1,
+      6,
+      11,
+      15
+    ],
+    [
+      5,
+      6,
+      9,
+      10
+    ]
+  ],
+  "query": [
+    1,
+    6,
+    11,
+    15
+  ],
+  "source_sha256": {
+    "run_experiments.py": "f3f7e9799304c9594c93ca2a20946c3e4846fb624627a54bb3698ad089ab650f",
+    "src/Core.qs": "d3e1809e098c9724948268e432c39de14d3815a4f2b992765ceba85504454748",
+    "src/MinHash.qs": "8ad4e734004cde9ae30c7c74486990c6989323f8393de9f58a57d408face4e89",
+    "src/Search.qs": "4185e7b3d1af66f818ee85822f17d29d8da6621c9f69659c1b6df99283993d33",
+    "run_search_parallel.py": "8f3bdcc9d85e934cb90b6c29cc59eb1a5bf16599621b5910846142cdefa3384c"
+  },
+  "limitations": [
+    "Explicit multiplexed QROM and exact key-comparison membership, not physical QRAM or cuckoo hashing.",
+    "Search uses one coherent QAE register and a measured median-3 verification guard; it is a finite-budget variant, not the theorem's amplified parameter setting.",
+    "Experiments validate small-instance functionality, not asymptotic speedup or genomic-scale performance.",
+    "Search results concern repeated measurement seeds on one constructed four-reference DNA database.",
+    "Parallel wall time concerns classical simulator scheduling and is not quantum algorithm running time."
+  ],
+  "records": 64,
+  "expected_records": 64,
+  "complete": true,
+  "successes": 64,
+  "simulator_wall_seconds": 484.5064646850001,
+  "summed_trial_simulator_seconds": 1891.542622004,
+  "utc_finished": "2026-10-21T12:52:51.221718+00:00",
+  "sources_unchanged": true,
+  "source_sha256_finished": {
+    "run_experiments.py": "f3f7e9799304c9594c93ca2a20946c3e4846fb624627a54bb3698ad089ab650f",
+    "src/Core.qs": "d3e1809e098c9724948268e432c39de14d3815a4f2b992765ceba85504454748",
+    "src/MinHash.qs": "8ad4e734004cde9ae30c7c74486990c6989323f8393de9f58a57d408face4e89",
+    "src/Search.qs": "4185e7b3d1af66f818ee85822f17d29d8da6621c9f69659c1b6df99283993d33",
+    "run_search_parallel.py": "8f3bdcc9d85e934cb90b6c29cc59eb1a5bf16599621b5910846142cdefa3384c"
+  }
+}

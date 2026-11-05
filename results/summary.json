@@ -1,0 +1,77 @@
+{
+  "Containment QAE": {
+    "trials": 448,
+    "successes": 447,
+    "success_rate": 0.9977678571428571,
+    "wilson_95": [
+      0.9874660206931533,
+      0.999605863246093
+    ],
+    "mean_error": 0.010430307900769414,
+    "max_error": 0.1524548389919358,
+    "mean_logical_work": 381,
+    "work_unit": "A/A-dagger calls",
+    "metric": "absolute error",
+    "total_simulator_seconds": 120.79775904700159
+  },
+  "Jaccard via QAE": {
+    "trials": 64,
+    "successes": 63,
+    "success_rate": 0.984375,
+    "wilson_95": [
+      0.9166589839990573,
+      0.9972364580766624
+    ],
+    "mean_error": 0.02603081740794143,
+    "max_error": 0.30885155929947883,
+    "mean_logical_work": 381,
+    "work_unit": "A/A-dagger calls",
+    "metric": "absolute error",
+    "total_simulator_seconds": 25.313773386000776
+  },
+  "Query search": {
+    "trials": 32,
+    "successes": 32,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.8928208017449293,
+      1.0
+    ],
+    "mean_error": 0.0,
+    "max_error": 0.0,
+    "mean_logical_work": 1547.4375,
+    "work_unit": "A/A-dagger calls",
+    "metric": "score regret",
+    "total_simulator_seconds": 235.59634562600104
+  },
+  "Best-pair search": {
+    "trials": 32,
+    "successes": 32,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.8928208017449293,
+      1.0
+    ],
+    "mean_error": 0.0,
+    "max_error": 0.0,
+    "mean_logical_work": 2455.03125,
+    "work_unit": "A/A-dagger calls",
+    "metric": "score regret",
+    "total_simulator_seconds": 1655.9462763779989
+  },
+  "Multi-hash MinHash": {
+    "trials": 192,
+    "successes": 192,
+    "success_rate": 1.0,
+    "wilson_95": [
+      0.980384853933246,
+      1.0
+    ],
+    "mean_error": 0,
+    "max_error": 0,
+    "mean_logical_work": 509.984375,
+    "work_unit": "hash compute/uncompute calls",
+    "metric": "incorrect coordinates",
+    "total_simulator_seconds": 175.34217596099893
+  }
+}
